@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div class="filhos">
+            <div>
+                <h2 id="titleRES"></h2>
+            </div>
+            <div id="imgRES">
+            
+            </div>
+        </div>
+            <div class="filhos">
+                <div id="cursos">
+                    <div class="subfilhos">
+                        <button onclick="num(1)" ><img src="img/informatica.png" alt="" id="inf"></button>
+                    </div>
+                    <div class="subfilhos">
+                        <button onclick="num(2)"><img src="img/agro.png" alt="" id="agr"></button>
+                    </div>
+                    <div class="subfilhos">
+                        <button onclick="num(3)"><img src="img/conta.png" alt="" id="con"></button>
+                    </div>  
+                    <div class="subfilhos">
+                        <button onclick="num(4)"><img src="img/administração.png" alt="" id="adm"></button>
+                    </div>
+                         
+                </div>
+                <div id="buton">
+                    <button id="gre" onclick="confirmar()">Confirmar</button>
+                    <button style="background-color: white;" id="bra" onclick="num(5)">Dúvida</button>
+                    <button style="background-color: red;" id="red" onclick="num(6)">Nenhum</button>
+                </div>
+        </div>
+    </div>
+    <div id="respp">
+
+    </div>
+    <button onclick="ver()">ver</button>
+    <button onclick="window.print()">Baixar Resultado</button>
+    <script src="sript.js"></script>
+</body>
+</html>
